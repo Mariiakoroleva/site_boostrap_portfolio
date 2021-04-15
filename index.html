@@ -102,9 +102,33 @@
 		<div class="col-md-8">
 			<h3 class="my-5">Hello!</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a mauris eu dolor tristique vulputate in et diam. Ut imperdiet scelerisque ultrices. In id volutpat nulla, in vestibulum felis. Sed at varius est. Mauris blandit mauris vitae enim pellentesque tincidunt. Curabitur ultrices auctor fermentum. Praesent non dignissim erat, ut rhoncus orci. Nullam fermentum risus vel sapien consequat, eget consectetur felis tincidunt. Donec molestie ante in tortor imperdiet, et aliquam velit pretium. Morbi non condimentum tellus.</p>
-			<button class="btn btn-outline-secondary">Read more</button>
+			<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalhello">More info</button>
 		</div>
-		
+		<!--MODAL HELLO-->
+		<div class="modal fade" id="modalhello" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalhellolable" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modalhellolable">Information</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+					</div>
+
+					<div class="modal-body">
+						<p>Sed in diam non quam mollis vulputate. In scelerisque et nisi in efficitur. Nulla cursus rutrum velit id venenatis. Integer et nisl turpis. Pellentesque quis tincidunt justo. Praesent a sollicitudin neque. Maecenas imperdiet fermentum lobortis. Nam vel tincidunt tellus, sodales tempor purus. Sed hendrerit urna erat, ac pharetra massa dictum bibendum. Nullam feugiat felis sed cursus ultrices. Donec mollis felis neque, non sollicitudin est tempor ut. Nam et orci quis massa condimentum scelerisque. Nullam consequat urna ex, at accumsan mauris scelerisque nec. Morbi eget consequat sem, ut volutpat sem. Cras non mattis dolor, ac vulputate velit. Vivamus mattis aliquam sem non faucibus.</p>
+
+						<p>Nam mollis faucibus risus, quis mollis orci tempor at. Ut id dolor neque. Etiam eu suscipit tellus. Praesent pretium pretium sem, id finibus sem eleifend et. Donec mattis arcu nec odio tempus, et pretium diam sodales. Pellentesque in quam interdum, pulvinar ante nec, porta urna. Mauris at orci tincidunt, imperdiet sem et, ornare est. Aliquam pretium erat eros, eget condimentum nulla sagittis at. Etiam mattis tortor eros, et blandit felis condimentum luctus. Donec vel suscipit tellus. Suspendisse potenti. Integer vel pulvinar leo, sed tempor nisl. Etiam blandit, nibh eu ultricies volutpat, est leo eleifend massa, at venenatis tellus sem auctor enim. Etiam finibus lectus mi, sit amet finibus dui semper non.</p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       					 <button type="button" class="btn btn-primary">Understood</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--MODAL HELLO-->
 	</div>
 	<div class="row my-5 text-center">
 		<h2 class="">Our team</h2>
